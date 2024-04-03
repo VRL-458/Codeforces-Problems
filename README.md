@@ -1,1 +1,1 @@
-# All the problems all solve from Codeforces on C++ lenguage
+# All the problems I will solve from Codeforces on C++ language
