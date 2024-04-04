@@ -1,28 +1,18 @@
-#include <iostream>
 #include <vector>
 #include <string>
+#include <iostream>
 
 using namespace std;
 
 int main()
 {       
-        long number ;
-        int count= 0;
-        cin >> number;
-        while(number > 0){
-            if (number % 10 ==4 || number % 10 ==7){
-                count += 1;
-
-            }
-            number = number /10;
+        int w;
+        cin >> w;
+        if (w % 2 == 0 && w >2){
+            cout << "YES";
         }
-
-    if (count == 4 || count == 7){
-        cout <<"YES";
-
-    }
-    else {
-        cout << "NO";
-    }
+        else {
+            cout << "No";
+        }
     return 0;
 }
