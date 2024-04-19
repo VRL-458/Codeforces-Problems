@@ -11,7 +11,7 @@ int main()
     cin >> a;
     cin >> b;
 
-    for (char &c : a) {
+    for (char &c : a) { // aqui por un for.
         c = tolower(c);
     }
     for (char &c : b){

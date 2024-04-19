@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include <sstream>
+#include <sstream> //this is necesary for splits
 #include <vector>
 
 using namespace std;
@@ -10,12 +10,17 @@ int main() {
     istringstream iss(frase);
     vector<string> palabras;
 
-    // Leer cada palabra separada por espacio en blanco
+    /*
+    Leer cada palabra separada por espacio en blanco
     string palabra;
     while (iss >> palabra) {
         palabras.push_back(palabra);
     }
-
+    this second while allow us to do split with char
+    while (getline(iss, palabra, '+')) {
+        palabras.push_back(palabra);
+    }
+    */
     // Mostrar las palabras
     for (const auto& palabra : palabras) {
         cout << palabra << endl;
