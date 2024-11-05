@@ -1,6 +1,6 @@
 # All the coding problems I'm going to be solving
 
-# Platafomrs: 
+# Plataforms: 
 . Codeforces
 . CSES 
 
