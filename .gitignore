@@ -1,7 +1,39 @@
-# Ignorar todos los archivos .exe
+# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,c++
+# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,c++
+
+### C++ ###
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
 *.exe
-# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode
-# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode
+*.out
+*.app
 
 ### VisualStudioCode ###
 .vscode/*
@@ -14,7 +46,7 @@
 # Local History for Visual Studio Code
 .history/
 
-# Built Visual Studio Code Extensions   
+# Built Visual Studio Code Extensions
 *.vsix
 
 ### VisualStudioCode Patch ###
@@ -22,4 +54,4 @@
 .history
 .ionide
 
-# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode
+# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,c++
