@@ -16,7 +16,6 @@ int main()
                 position +=1;
             }
         if (position == 5){
-            cout<<"entra if <5"<<endl;
             result= "YES";
             break;
         }
