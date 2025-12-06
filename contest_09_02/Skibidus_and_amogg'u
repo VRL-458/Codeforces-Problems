@@ -1,0 +1,17 @@
+#include <vector>
+#include <string>
+#include <iostream>
+
+using namespace std;
+
+int main()
+{       
+    string word;
+    int cantidad;
+    cin>>cantidad;
+    for (int i=0; i<cantidad; i++){
+        cin>>word;
+        //solved on python
+    }
+    return 0;
+}
